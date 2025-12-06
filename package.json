@@ -1,14 +1,18 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "deploy": "node deploy-commands.js"
-  },
-  "dependencies": {
-    "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5"
-  }
+"name": "discord-bot",
+"version": "1.0.0",
+"description": "Discord bot with embed/gen/stock/create/add commands",
+"main": "index.js",
+"type": "module",
+"scripts": {
+"start": "node index.js",
+"deploy": "node deploy-commands.js"
+},
+"engines": {
+"node": ">=18.0.0"
+},
+"dependencies": {
+"discord.js": "^14.15.3",
+"dotenv": "^16.4.5"
+}
 }
